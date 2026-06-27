@@ -16,5 +16,4 @@ It is not recommended to assign policies to individual users; best practice is t
 
 ![User and Groups Diagram](./usersAndGroups.drawio.png)
 
-![User and Groups Diagram](./usersAndGroups.drawio.svg)
 
