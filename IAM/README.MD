@@ -47,11 +47,11 @@ Policie `IAMReadOnlyAccess` -> users only can see, editing is not allowed
 
 #### Structure for Policies
 
-`version`: Policy language version
-`id`: id for policy(its opcional)
-`statement`: details
-`effect`: permission for the service, can be allow/denied
-`principal`: list of accounts allowed
-`action`: which actions user is allowed to do
-`Resource`: which services user is allowed to do
-`condition`: You can define a condition to run the rules
+- `version`: Policy language version
+- `id`: id for policy(its opcional)
+- `statement`: details
+- `effect`: permission for the service, can be allow/denied
+- `principal`: list of accounts allowed
+- `action`: which actions user is allowed to do
+- `Resource`: which services user is allowed to do
+- `condition`: You can define a condition to run the rules
