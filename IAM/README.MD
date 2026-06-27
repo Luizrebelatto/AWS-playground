@@ -14,5 +14,5 @@ It is an AWS service that allows you to control who can access services and set 
 Groups are used to manage permissions for different users; users can belong to multiple groups, which makes management easier.
 It is not recommended to assign policies to individual users; best practice is to assign them to groups.
 
-[User and Groups Diagram](./usersAndGroups.drawio.svg)
+[User and Groups Diagram](./usersAndGroups.drawio.png)
 
