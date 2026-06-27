@@ -3,7 +3,7 @@
 
 It is an AWS service that allows you to control who can access services and set permission levels for users and services
 
-## Thing you can do with IAM
+## Things you can do with IAM
 - Users
 - Roles
 - Groups
@@ -102,4 +102,17 @@ If you compare with policies, the difference in the structure will be in the `pr
 }
 ```
 
+## IAM Security Tools
+- Access advisor(user level)
+  - services accessed by the user and the last time they were accessed
+- Credential reports(account level)
+  - List status, list all accounts 
+
+## Best Practices
+- One physical user per one user aws
+- Create strong policy password
+- use and enforce user to use MFA
+- Create and use role to give permissions to services
+- use access key when you use cli or sdk
+- never share iam users
 
