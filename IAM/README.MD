@@ -20,6 +20,8 @@ It is not recommended to assign policies to individual users; best practice is t
 ## Policies
 Policies are Json document that specify what you can and cannot do, for example the group developers has the policie `getListUser` assign so Anyone in the developers group can list the users. You can define user, groups or roles permissions
 
+If you have two policies—one that allows a service and another that denies a service—the one that takes precedence is the one that denies it.
+
 See below for an example
 
 Policie `IAMReadOnlyAccess` -> users only can see, editing is not allowed
