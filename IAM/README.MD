@@ -10,6 +10,12 @@ It is an AWS service that allows you to control who can access services and set 
 - Policies
 - Security Tools
 
+## Concepts
+- Least Privilege: the minimum possible allowance
+- Trust Policy: Who can take on the role
+- Explicit Deny: denied wins over allow
+- Permission Boundary: Even if the role has policies that allow various things, it can never exceed this limit.
+
 ## Users and Groups
 Groups are used to manage permissions for different users; users can belong to multiple groups, which makes management easier.
 It is not recommended to assign policies to individual users; best practice is to assign them to groups.
